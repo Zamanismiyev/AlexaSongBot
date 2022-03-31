@@ -5,9 +5,9 @@ from AlexaSongBot.modules import *
 from pyrogram import idle, filters
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton
-from WerabSong_Bot import app, LOGGER
-from WerabSong_Bot.mrdarkprince import ignore_blacklisted_users
-from Werabsongbot.sql.chat_sql import add_chat_to_db
+from AlexSongBot import app, LOGGER
+from AlexSongBot.mrdarkprince import ignore_blacklisted_users
+from AlexSongBot.sql.chat_sql import add_chat_to_db
 
 start_text = """
 Hey [{}](tg://user?id={}),
@@ -35,7 +35,7 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🔳 Source Code 🔳", url="https://github.com/Zamanismiyev/WerabSong_Bot"
+                        text="🔳 @WerabliAnlar🔳", url="https://github.com"
                     )
                 ]
             ]
