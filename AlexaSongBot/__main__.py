@@ -1,4 +1,4 @@
-# © @Mr_Dark_Prince
+# © @WerabliAnlar
 
 from config import OWNER_ID
 
