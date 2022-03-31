@@ -26,7 +26,7 @@ I'm Alexa 🤗
 
 Just send me the song name you want to download.
 
-Eg: ```/song Faded Alan Walker```
+Eg: ```/song sen gedersen ay tutular```
 
 """
 
